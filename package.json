@@ -1,6 +1,5 @@
 {
   "name": "dtc-starter-monorepo",
-  "private": false,
   "packageManager": "yarn@4.9.2",
   "engines": {
     "node": ">=20"
@@ -18,7 +17,7 @@
     "backend:dev": "turbo dev --filter=@dtc/backend",
     "storefront:dev": "turbo dev --filter=@dtc/storefront",
     "docker:up": "docker compose up --build -d",
-    "docker:down": "docker compose down"
+    "docker:down": "docker compose down"  
   },
   "resolutions": {
     "@types/react": "19.0.5",
